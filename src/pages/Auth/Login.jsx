@@ -7,9 +7,9 @@ function Login() {
       <Navbar />
 
       <div>
-        <div className="flex flex-1">
+        <div className="flex flex-1  flex-colmd:flex-row  h-screen">
           {/* Left side */}
-          <div className="w-1/2 flex flex-col px-20 py-10">
+          <div className=" w-full md:w-1/2  flex flex-col px-20 py-10">
             <div>
               <h1 className="text-3xl font-bold text-gray-800  mb-4">
                 Hungry again?{" "}
@@ -54,7 +54,7 @@ function Login() {
 
           </div>
 
-          <div className="w-1/2 bg-[#FDFCDB] h-screen">
+          <div className="hidden md:block w-1/2 bg-[#FDFCDB] h-screen">
           
            <img src={deliveryBoy} alt="" />
           </div>
