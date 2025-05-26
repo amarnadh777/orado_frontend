@@ -9,12 +9,13 @@ function Login() {
       <div>
         <div className="flex flex-1  flex-colmd:flex-row  h-screen">
           {/* Left side */}
-          <div className=" w-full md:w-1/2  flex flex-col px-20 py-10">
+          <div className=" w-full md:w-1/2  flex flex-col px-4 py-6 md:px-10 md:py-10">
             <div>
               <h1 className="text-3xl font-bold text-gray-800  mb-4">
                 Hungry again?{" "}
                 <span className="text-[#EA4424]"> Log in for </span> <br />
-                quick delivery
+                <span className="text-[#EA4424]"   >   quick </span>        delivery
+       
               </h1>
               <h4 className=" text-gray-500">Welcome back! Please login to your account.</h4>
             </div>
